@@ -10,6 +10,17 @@
     justify-content: center;
     /* transform: translateX(-50px); */
 }
+.credits{
+    font-size: 0.6em;
+    
+}
+.hero-text{
+    display: inline-table;
+}
+.credits b a{
+    text-decoration: none;
+    color:white;
+}
 body{
     overflow-x: hidden;
     

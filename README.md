@@ -5,9 +5,7 @@
 A dictionary made for emojis! Find out the meanings of your favourite emojis! built with ♥ using React.js
 
 #### View Live Demo
-  <pre>
-  <center><a href="https://emojis.ishandeveloper.com/"><b>emojis.ishandeveloper.com</b></a></center>
-  </pre>
+  <pre><center><a href="https://emojis.ishandeveloper.com/"><b>emojis.ishandeveloper.com</b></a></center></pre>
 
 ## Setup
 

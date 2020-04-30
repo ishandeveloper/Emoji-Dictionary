@@ -1,24 +1,22 @@
 import React from "react";
 
+function createCard(emoji) {
+  return <Card key={emoji.id} icon={emoji.emoji} title={emoji.name} text={emoji.info} />;
+}
 
-
-function Card() {
+function Card(props) {
   return (
     <div className="col-md-3">
       <div className="card">
-        <div className="card-img-container">😀</div>
+        <div className="card-img-container">{props.icon}</div>
 
         <div className="card-body">
-          <h5 className="card-title">Grinning Face</h5>
-          <p className="card-text">
-            The happy smiling face is one of the most common emojis and
-            universally applicable: you just want to say hello, express joy or
-            excitement about something or brighten up a short text.
-          </p>
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">{props.text}</p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Card;
+export default createCard;

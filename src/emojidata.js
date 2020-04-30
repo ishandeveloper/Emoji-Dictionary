@@ -83,5 +83,19 @@ const emojidata = [
     info:
       "Huge glasses, awkward smile and buck teeth. Used humorously or ironically for nerds or to express how smart you are. Stereotype of a nerd..",
   },
+  {
+    id: 13,
+    emoji: "😎",
+    name: "Cool Face",
+    info:
+      "I'm the king of the world! Mr. Cool Smiley with sunglasses. Is totally self-assured and relaxed. Also a symbol for sun, summer holidays, and holidays on the beach.",
+  },
+  {
+    id: 14,
+    emoji: "🥳",
+    name: "Party Face",
+    info:
+      "That was a wild party or “Let's celebrate“. No matter what joyful event is in view, it will be celebrated appropriately. May also stand for the carnival season.",
+  },
 ];
 export default emojidata;

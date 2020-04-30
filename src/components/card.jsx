@@ -1,7 +1,14 @@
 import React from "react";
 
 function createCard(emoji) {
-  return <Card key={emoji.id} icon={emoji.emoji} title={emoji.name} text={emoji.info} />;
+  return (
+    <Card
+      key={emoji.id}
+      icon={emoji.emoji}
+      title={emoji.name}
+      text={emoji.info}
+    />
+  );
 }
 
 function Card(props) {
